@@ -1,0 +1,107 @@
+13.Print the multiplication table of 5 using a while loop.
+
+package testassi4;
+
+public class Multiplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=5;
+		while(a<=100) {
+			System.out.println(a);
+			a+=5;
+		}
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+14.Print numbers from 1 to 100 using a for loop.
+
+package testassi4;
+
+public class Forloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int a=1;a<=100;a++)
+		{
+			System.out.println(a);
+		}
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+15.Print even numbers from 2 to 50.
+
+package testassi4;
+
+public class EvenNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int a=1;a<=50;a++) {
+			if(a%2==0) {
+				System.out.println(a);
+			}
+		}
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+16.print odd numbers from 1 to 50.
+
+package testassi4;
+
+public class Oddno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int a=1;a<=50;a++)
+		{
+			if(a%2==1) {
+				System.out.println(a);
+			}
+		}
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+17.Print the multiplication table of 9.
+
+package testassi4;
+
+public class Multiplicationtable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=1;
+		while(a<=100) {
+			if(a%9==0)
+			{
+				System.out.println(a);
+			}
+			a++;
+		}
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+

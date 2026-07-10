@@ -1,0 +1,167 @@
+5.Check Whether a person is eligible to vote.
+
+package testassi2;
+
+import java.util.Scanner;
+
+public class EligibleVote {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter The Age for vote");
+		int age=sc.nextInt();
+		if(age>=18)
+		{
+			System.out.println("You are eligible for vote");
+		}
+		else {
+			System.out.println("You are not eligible for vote");
+		}
+		
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+6.Create a simple username and password verification using nested if.
+
+package testassi2;
+
+import java.util.Scanner;
+
+public class UsernamePassword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="Satish@2026";
+		String password="Satish@1234";
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your username");
+		String nameinput=sc.nextLine();
+		System.out.println("Enetr your password");
+		String passwordinput=sc.nextLine();
+		if(name.equals("Satish@2026"))
+		{
+			
+				if(password.equals("Satish@1234")) {
+				System.out.println("Welcome to home page");
+			}
+			else
+			{
+				System.out.println("Incorrect password");
+			}
+			
+		}
+		else {
+			System.out.println("Incorrect username");
+		}
+		
+		
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+7.Stores a student's marks and attendance percentage.
+
+package testassi2;
+
+import java.util.Scanner;
+
+public class Studentsmarkattendadepercenatge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int marks=sc.nextInt();
+		System.out.println("Enter your attendance percenatge");
+		int attendancepercenatge=sc.nextInt();
+		if(marks>=35) {
+			if(attendancepercenatge>=75)
+			{
+				System.out.println("Eligible for exam certificate");
+			}else {
+				System.out.println("You are not eligible for the exam certificate due to attendance percentage");
+			
+			}
+		}
+		else {
+			System.out.println("You are not eligible for the exam certificate due to exam marks");
+		}
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+8.Display the day name using a switch statement.
+
+package testassi2;
+
+import java.util.Scanner;
+
+public class dayname {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number between 1 to 7 to print the day");
+		int input=sc.nextInt();
+		switch(input)
+		{
+		case 1:
+		{
+			System.out.println("Sunday");
+			break;
+		}
+		case 2:
+		{
+			System.out.println("Monday");
+			break;
+		}
+		case 3:
+		{
+			System.out.println("Tuesday");
+			break;
+		}
+		case 4:
+		{
+			System.out.println("Wednesday");
+			break;
+		}
+		case 5:
+		{
+			System.out.println("Thursday");
+			break;
+		}
+		case 6:
+		{
+			System.out.println("Friday");
+			break;
+		}
+		case 7:
+		{
+			System.out.println("Saturday");
+			break;
+		}
+		default:
+		{
+			System.out.println("Invalid Date");
+		}
+		}
+
+	}
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
